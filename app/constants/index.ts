@@ -19,4 +19,16 @@ export const webLinks = [
     name: "website 5",
     link: "/corbel/index.html",
   },
+  {
+    name: "website 6",
+    link: "/max/index.html",
+  },
+  {
+    name: "website 7",
+    link: "/inter/index.html",
+  },
+  {
+    name: "website 8",
+    link: "/portfolio/index.html",
+  },
 ];
