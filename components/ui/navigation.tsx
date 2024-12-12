@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Overlay from "./overlay";
-import { ArrowRight, Mail, Menu, Phone, X } from "lucide-react";
+import { Mail, Menu, Phone, X } from "lucide-react";
 import Image from "next/image";
 import { webLinks } from "@/app/constants";
 
