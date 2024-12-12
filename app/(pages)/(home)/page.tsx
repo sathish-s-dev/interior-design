@@ -4,6 +4,9 @@ import Offering from "./(ui)/offering";
 import ScrollVideo from "./(ui)/scroll-video";
 import Announcement from "./(ui)/announcement";
 import Services from "./(ui)/services";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { webLinks } from "@/app/constants";
 // import Projects from "./(ui)/projects";
 
 export const metadata: Metadata = {
@@ -18,8 +21,10 @@ export default function Home() {
       <ScrollVideo />
       <Offering />
       <Announcement />
-      <Services />
       {/* <Projects /> */}
+      <Services />
     </div>
   );
 }
+
+

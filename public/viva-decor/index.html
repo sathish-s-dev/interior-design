@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.7.0/build/css/intlTelInput.css">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>Viva Decor</title>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand me-0 element-animation fadeInLeft" href="#"><img src="./img/Logo.svg" class="d-block"
+            alt="logo" width="177" height="48"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto justify-content-center align-items-center gap-lg-5 element-animation fadeInDown delay-05">
+            <li class="nav-item">
+              <a class="nav-link primary-text" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-text" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-text" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-text" href="#footer">Support</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center element-animation fadeInRight delay-05">
+            <button class="btn btn-dark btn-text px-5 py-3 d-flex justify-content-center" data-bs-toggle="modal"
+              data-bs-target="#loginModal" type="button">Sign Up</button>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <main class="position-relative z-10">
+    <section class="main">
+      <div class="container">
+        <div class="row pe-2 position-relative ">
+          <div class="col-8 main__text">
+            <h1 class="h1 mb-5 element-animation fadeInLeft delay-05">Interior Design</h1>
+            <p class="fs-3 main__description secondary-text element-animation fadeInLeft delay-1">Step into a world
+              where the art of Interior Design is
+              meticulously crafted
+              to bring together timeless elegance and cutting-edge
+              modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and
+              sophistication</p>
+          </div>
+          <div class="col-4 ps-0 overflow-hidden main__image element-animation fadeInRight delay-1"><img
+              src="./img/main1.jpg" alt="interior"></div>
+        </div>
+        <div class="row pe-2 position-relative">
+          <div class="col-6 d-flex flex-column align-items-start benefits__row">
+            <button class="btn btn-dark btn-text main__btn mt-5 element-animation fadeInLeft delay-1"
+              data-bs-toggle="modal" data-bs-target="#applicationModal">Start Project</button>
+            <div class="container benefits__items element-animation fadeInLeft delay-1">
+              <div class="row justify-content-between">
+                <div class="col">
+                  <h2 class="accent-text benefits__value">0</h2>
+                  <p class="primary-text">Project Complete</p>
+                </div>
+                <div class="col">
+                  <h2 class="accent-text benefits__value">0</h2>
+                  <p class="primary-text">Satisfied Clients</p>
+                </div>
+                <div class="col">
+                  <h2 class="accent-text benefits__value">0</h2>
+                  <p class="primary-text">Unique Styles</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 position-relative overflow-hidden element-animation fadeInRight delay-15">
+            <img class="main__benefit-img" src="./img/main2.jpg" alt="interior">
+            <button type="button" class="btn btn-secondary rounded-0 main__arrow-btn position-absolute bottom-0 end-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="59" viewBox="0 0 24 59" fill="none">
+                <path
+                  d="M13.5 2C13.5 1.17157 12.8284 0.5 12 0.5C11.1716 0.5 10.5 1.17157 10.5 2L13.5 2ZM10.9393 58.0607C11.5251 58.6464 12.4749 58.6464 13.0607 58.0607L22.6066 48.5147C23.1924 47.9289 23.1924 46.9792 22.6066 46.3934C22.0208 45.8076 21.0711 45.8076 20.4853 46.3934L12 54.8787L3.51472 46.3934C2.92893 45.8076 1.97918 45.8076 1.3934 46.3934C0.807609 46.9792 0.807609 47.9289 1.3934 48.5147L10.9393 58.0607ZM10.5 2L10.5 57L13.5 57L13.5 2L10.5 2Z"
+                  fill="white" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="h2 services__title d-flex align-items-center element-animation fadeInLeft delay-05">Our Services</h2>
+        <div class="card-group justify-content-between element-animation fadeInLeft delay-1">
+          <div class="card services__card flex-row position-relative">
+            <div class="card-body">
+              <h3 class="card-title fw-semibold">Lighting Design</h3>
+              <p class="card-text primary-text">Achieve the perfect balance of ambient, task, and accent lighting for a
+                functional atmosphere.</p>
+            </div>
+          </div>
+          <div class="card services__card flex-row position-relative">
+            <div class="card-body">
+              <h3 class="card-title fw-semibold">Interior Design</h3>
+              <p class="card-text primary-text">From concept to completion, we oversee every detail to bring your vision
+                to life efficiently</p>
+            </div>
+          </div>
+          <div class="card services__card flex-row position-relative">
+            <div class="card-body">
+              <h3 class="card-title fw-semibold">Outdoor Design</h3>
+              <p class="card-text primary-text">Celebrate the changing seasons with our seasonal outdoor decor services
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="spaces">
+      <div class="spaces__container container d-flex justify-content-between">
+        <div class="spaces__img element-animation fadeInLeft delay-05"><img src="./img/Learn more.jpg" class="img-fluid"
+            alt="spaces"></div>
+        <div class="spaces__body d-flex flex-column justify-content-between element-animation fadeInRight delay-05">
+          <h2 class="h2 spaces__title">Designing Your Dream With Brilliance</h2>
+          <p class="spaces__description secondary-text fw-medium">Elevate your spaces with bespoke interior designs that
+            reflect your
+            unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-semibold collapsed secondary-text" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  Living Room Interior Design
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our Living Room Interior Design service is tailored to create a space that reflects your personal
+                  style and meets your needs. Our expert designers will work closely with you to understand your
+                  preferences, lifestyle, and budget to deliver a personalized design solution. We will transform your
+                  living room into a stunning and inviting space that combines beauty, functionality, and comfort,
+                  perfect for relaxing and entertaining.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold secondary-text" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  Commercial Office Room Interior Design
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our Commercial Office Room Interior Design service is designed to create a productive and inspiring
+                  workspace that reflects your company's values and brand. Our expert designers will work closely with
+                  you to understand your business needs and goals, and deliver a tailored design solution that maximizes
+                  functionality and efficiency. From open-plan offices to executive suites, we will transform your
+                  commercial space into a stunning and functional environment that boosts employee morale and
+                  productivity.
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="btn btn-dark btn-text spaces__btn mt-4" type="submit">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="steps__container container d-flex justify-content-between">
+        <div class="steps__body d-flex flex-column">
+          <h2 class="h2 steps__title element-animation fadeInLeft delay-05">Designing Your Dream in Three Simple Steps
+          </h2>
+          <div class="d-flex flex-lg-column steps__cards">
+            <div class="card steps__card position-relative element-animation fadeInLeft delay-1">
+              <h5 class="card-title fw-bold">Start Project</h5>
+              <p class="card-text secondary-text">Embark on your design adventure by initiating your project. Share your
+                vision and set the stage for a bespoke design experience</p>
+            </div>
+            <div class="card steps__card position-relative element-animation fadeInLeft delay-15">
+              <h5 class="card-title fw-bold">Craft</h5>
+              <p class="card-text secondary-text">Collaborate closely to achieve design excellence refining your vision
+                and crafting brilliance into every aspect of your space</p>
+            </div>
+            <div class="card steps__card position-relative element-animation fadeInLeft delay-2">
+              <h5 class="card-title fw-bold">Execute</h5>
+              <p class="card-text secondary-text">Witness your vision becoming a reality as we execute the design plan
+                with precision. Celebrate the joy of your newly transformed space</p>
+            </div>
+          </div>
+        </div>
+        <div class="steps__img element-animation fadeInRight delay-15"><img src="./img/steps.png"
+            class="img-fluid w-100" alt="spaces"></div>
+      </div>
+    </section>
+    <section class="feedback" id="feedback">
+      <div class="container feedback__container d-flex justify-content-between position-relative">
+        <div class="feedback__img element-animation fadeInLeft delay-05"><img src="./img/feedback-bg.png"
+            alt="feedback"></div>
+        <h2 class="h2 feedback__title element-animation fadeInRight delay-05">What Our Customers Say About Us</h2>
+        <div class="feedback__body position-absolute d-flex align-items-end">
+          <div class="feedback__btns d-flex element-animation fadeInLeft delay-15">
+            <button id="left" class="btn__prev btn-control" type="button">
+              <span class="btn-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button id="right" class="btn__next btn-control" type="button">
+              <span class="btn-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="feedback__cards element-animation fadeInRight delay-15">
+            <div class="cards__wrapper">
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text">Working with your design team was an absolute
+                    pleasure. The attention to detail
+                    and creativity exceeded my expectations. Thank you for making my home beautiful!</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar1.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">Sophie Carter</p>
+                      <p class="card__person-location">New York, USA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text">Exceptional service! From the initial
+                    consultation to the final reveal, your team demonstrated professionalism and a keen eye for design.
+                    Highly recommend!</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar2.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">James Bennett</p>
+                      <p class="card__person-location">Toronto, Canada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text"> I am so impressed with exceptional service. From
+                    the initial consultation to the final reveal, their team showed a keen eye for design and a
+                    professionalism that I have not seen before.</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar3.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">John Smith</p>
+                      <p class="card__person-location">New York, USA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text">I am blown away by their work. From the initial
+                    concept to the final implementation, their team demonstrated a deep understanding of design and a
+                    commitment to
+                    excellence.</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar4.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">Sarah Johnson</p>
+                      <p class="card__person-location">Washington, USA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text">I recently had the opportunity to work with the
+                    design studio.From the initial consultation to the final reveal,
+                    their team showed a keen eye for design and a professionalism that I have not seen before.</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar5.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">Michael Davis</p>
+                      <p class="card__person-location">Los Angeles, USA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card feedback__card" draggable="false">
+                <div class="feedback__card-body">
+                  <div class="feedback__quote fw-medium"></div>
+                  <div class="card-text feedback__text secondary-text">I am blown away by their work. From the initial
+                    concept to the final
+                    implementation, their team demonstrated a deep understanding of design and a commitment to
+                    excellence.</div>
+                  <div class="card__person d-flex align-items-center">
+                    <div class="card__person-img"><img src="./img/avatar/avatar6.png" alt="avatar" class="card__avatar">
+                    </div>
+                    <div class="card__person-info">
+                      <p class="card__person-name fw-semibold secondary-text">Emily Thompson</p>
+                      <p class="card__person-location">Vancouver, Canada</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container d-flex flex-column align-items-center subscribe__container">
+        <h2 class="h2 text-center subscribe__title element-animation fadeInUp delay-05">Subscribe to Our Newsletter for
+          Design Insights</h2>
+        <p class="subscribe__text text-center secondary-text element-animation fadeInUp delay-1">Be the first to
+          discover trends, inspirations, and special
+          offers as we bring the world of design directly to your inbox</p>
+        <form class="subscribe__form d-flex align-items-center needs-validation element-animation fadeInUp delay-2">
+          <div class="input-group has-validation">
+            <input type="email" class="form-control" id="email-subscribe" placeholder="Enter your email address"
+              required>
+            <div class="invalid-feedback">
+              Please choose a correct email.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dark btn-text">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer z-behind-10 element-animation fadeInUp delay-05" id="footer">
+    <div class="container footer__container">
+      <div class="footer__item d-flex flex-column justify-content-between">
+        <div class="footer__logo"><a href="#"><img src="./img/LogoLite.svg" class="d-block" alt="logo" width="177"
+              height="48"></a></div>
+        <div class="footer__description primary-text">VivaDecor your premier destination for luxury and modern
+          interior design</div>
+        <ul class="footer__social d-flex">
+          <li class="social__item"><a href="https://www.facebook.com/" target="_blank"><img
+                src="./img/social/Facebook.svg" alt="facebook"></a></li>
+          <li class="social__item"><a href="https://twitter.com/" target="_blank"><img src="./img/social/twitter.svg"
+                alt="twitter"></a></li>
+          <li class="social__item"><a href="https://www.instagram.com/" target="_blank"><img
+                src="./img/social/Instagram.svg" alt="instagram"></a></li>
+          <li class="social__item"><a href="https://linkedin.com/" target="_blank"><img src="./img/social/Linkdin.svg"
+                alt="linkedin"></a></li>
+        </ul>
+      </div>
+      <div class="footer__item  footer__item-link d-flex flex-column justify-content-between">
+        <h3 class="footer__title fw-semibold">Services</h3>
+        <ul class="footer__link-list">
+          <li class="footer__link-item"><a class="footer__link" href="">Interior design</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Outdoor design</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Lightning design</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Office design</a></li>
+        </ul>
+      </div>
+      <div class="footer__item  footer__item-link d-flex flex-column justify-content-between">
+        <h3 class="footer__title fw-semibold">Info</h3>
+        <ul class="footer__link-list">
+          <li class="footer__link-item"><a class="footer__link" href="#feedback">Reviews</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Careers</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Pricing</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="">Press inquires</a></li>
+        </ul>
+      </div>
+      <div class="footer__item  footer__item-link d-flex flex-column">
+        <h3 class="footer__title fw-semibold">Contacts</h3>
+        <ul class="footer__link-list">
+          <li class="footer__link-item"><a class="footer__link secondary-text"
+              href="mailto:info@vivadecor.com">info@vivadecor.com</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://maps.app.goo.gl/1HhMyjeYitKg2rYA8"
+              target="_blank">Design Avenue Cityville, CA 90210 United States</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal modal__application" id="applicationModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content application">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4 pb-4 px-sm-5 pb-sm-5">
+          <form class="application__form d-flex flex-column align-items-center needs-validation">
+            <h2 class="mb-3 text-center">Create your perfect interior with us</h2>
+            <p class="mb-5 text-center">Send us your application and we will contact you soon</p>
+
+            <div class="mb-4 application__item position-relative">
+              <label for="designType" class="form-label fw-semibold">You need a design</label>
+              <select class="form-select" id="designType" aria-label="Design type">
+                <option value="House">House</option>
+                <option value="Office">Office</option>
+                <option value="Restaurant">Restaurant</option>
+                <option value="Apartment">Apartment</option>
+                <option value="Store">Store</option>
+                <option value="Other">Other...</option>
+              </select>
+              <input type="text" class="form-control input__select border-bottom position-absolute" id="designTypeOther"
+                placeholder="Enter other design type">
+            </div>
+
+            <div class="mb-4 application__item">
+              <label for="roomsCount" class="form-label fw-semibold">How many rooms are in your premises?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="roomsCount" id="roomsCount1" value="1-10">
+                <label class="form-check-label" for="roomsCount1">1-10</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="roomsCount" id="roomsCount2" value="10-20">
+                <label class="form-check-label" for="roomsCount2">10-20</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="roomsCount" id="roomsCount3" value="20-50">
+                <label class="form-check-label" for="roomsCount3">20-50</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="roomsCount" id="roomsCount4" value="50">
+                <label class="form-check-label" for="roomsCount4">50+</label>
+              </div>
+            </div>
+
+            <div class="mb-4 application__item">
+              <label for="floorArea" class="form-label fw-semibold">What is your total floor area?</label>
+              <div class="application__range range d-flex flex-column">
+                <div class="range__value position-relative w-100"> <input type="number"
+                    class="form-control range__value-number" id="floorAreaValue" value="50"></div>
+
+                <div class="range__field position-relative">
+                  <div class="range__min position-absolute">5</div>
+                  <input type="range" class="form__range mt-4" id="floorArea" min="5" max="500" value="50">
+                  <div class="range__max position-absolute">500+</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-4 mt-4 application__item">
+              <label for="style" class="form-label fw-semibold">In what style do you want the interior?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="style" id="styleLuxury" value="Luxury">
+                <label class="form-check-label" for="styleLuxury">Luxury</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="style" id="styleMinimalism" value="Minimalism">
+                <label class="form-check-label" for="styleMinimalism">Minimalism</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="style" id="styleArtDeco" value="Art Deco">
+                <label class="form-check-label" for="styleArtDeco">Art Deco</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="style" id="styleScandinavian" value="Scandinavian">
+                <label class="form-check-label" for="styleScandinavian">Scandinavian</label>
+              </div>
+            </div>
+            <div class="mb-4 mt-4 application__item">
+              <label for="name-application" class="form-label fw-semibold">Your name</label>
+              <input type="text" class="form-control" id="name-application" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-4 mt-4 application__item input-group has-validation">
+              <label for="phone" class="form-label fw-semibold">Your phone number</label>
+              <input type="tel" class="form-control application__phone" id="phone" required>
+            </div>
+            <div class="mb-4 mt-4 application__item">
+              <label for="email-application" class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" id="email-application" placeholder="example@mail.com" required>
+            </div>
+
+            <button class="btn btn-primary application__send">Send application</button>
+          </form>
+
+          <a class="application__switch-modal" href="" data-bs-target="#successModal" data-bs-toggle="modal"></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal__success" id="successModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content success">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4 pb-4 px-sm-5 pb-sm-5">
+          <h2 class="text-center mb-3">Your application has been successfully received</h2>
+          <p class="text-center">We will contact you soon to discuss further details</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal__login" id="loginModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center px-5">
+          <h1>Login</h1>
+          <p class="text-danger mb-5">This feature is currently under development and will be available soon...</p>
+          <form class="modal__form d-flex flex-column gap-4 needs-validation">
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg></span>
+              <input type="email" class="form-control" id="email-login" placeholder="Enter your email address" required>
+              <div class="invalid-feedback">
+                Please choose a correct email.
+              </div>
+            </div>
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1" />
+                </svg></span>
+              <input type="password" id="password-login" class="form-control" aria-invalid="true"
+                placeholder="Enter your password" pattern="^(?=.*[A-Z])[a-zA-Z]{8,}$"
+                title="The password must contain at least 8 letters, one of which is capitalized" required>
+              <span class="input-group-text form__password" data-pas="login"><i
+                  class="bi bi-eye password-icon"></i></span>
+              <div class="invalid-feedback">
+                The password must contain at least 8 letters, one of which is capitalized
+              </div>
+            </div>
+            <div class="input-group d-flex justify-content-between">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">
+                  Remember me
+                </label>
+              </div>
+              <div class="form__forgot-pass">
+                <a href="" data-bs-target="#resetPasswordModal" data-bs-toggle="modal">Forgot password?</a>
+              </div>
+
+            </div>
+            <button type="submit" class="btn btn-dark btn-text">Login</button>
+            <hr class="modal__dividing-line position-relative">
+          </form>
+          <ul class="modal__social d-flex justify-content-center">
+            <li class="social__item"><a href="https://www.facebook.com/" target="_blank"><img
+                  src="./img/social/Facebook-color.svg" alt="facebook"></a></li>
+            <li class="social__item"><a href="https://accounts.google.com/" target="_blank"><img
+                  src="./img/social/Google-color.svg" alt="instagram"></a></li>
+
+            <li class="social__item"><a href="https://twitter.com/" target="_blank"><img
+                  src="./img/social/Twitter-color.svg" alt="twitter"></a></li>
+
+          </ul>
+          <div class="form__switch-login"> Don't have an account?
+            <a href="" data-bs-target="#registrationModal" data-bs-toggle="modal">Register here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal modal__login" id="successModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-4 pb-4 px-sm-5 pb-sm-5">
+          <h2 class="text-center mb-3">Your application has been successfully received</h2>
+          <p class="text-center">We will contact you soon to discuss further details</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal__login" id="registrationModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center px-5">
+          <h1>Create an account</h1>
+          <p class="text-danger mb-5">This feature is currently under development and will be available soon...</p>
+          <form class="modal__form d-flex flex-column gap-4 needs-validation">
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                </svg></span>
+              <input type="text" class="form-control" id="user-registration" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg></span>
+              <input type="email" class="form-control" id="email-registration" placeholder="Enter your email address"
+                required>
+              <div class="invalid-feedback">
+                Please choose a correct email.
+              </div>
+            </div>
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1" />
+                </svg></span>
+              <input type="password" id="password-registration" class="form-control password" aria-invalid="true"
+                placeholder="Enter your password" pattern="^(?=.*[A-Z])[a-zA-Z]{8,}$"
+                title="The password must contain at least 8 letters, one of which is capitalized" required>
+              <span class="input-group-text form__password" data-pas="registration"><i
+                  class="bi bi-eye password-icon"></i></span>
+            </div>
+            <div class="input-group d-flex justify-content-between">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="rememberMe-registration">
+                <label class="form-check-label" for="rememberMe-registration">
+                  Remember me
+                </label>
+              </div>
+              <div class="form__forgot-pass">
+                <a href="" data-bs-target="#resetPasswordModal" data-bs-toggle="modal">Forgot password?</a>
+              </div>
+
+            </div>
+            <button type="submit" class="btn btn-dark btn-text">Register</button>
+            <hr class="modal__dividing-line position-relative">
+          </form>
+          <ul class="modal__social d-flex justify-content-center">
+            <li class="social__item"><a href="https://www.facebook.com/" target="_blank"><img
+                  src="./img/social/Facebook-color.svg" alt="facebook"></a></li>
+            <li class="social__item"><a href="https://accounts.google.com/" target="_blank"><img
+                  src="./img/social/Google-color.svg" alt="instagram"></a></li>
+
+            <li class="social__item"><a href="https://twitter.com/" target="_blank"><img
+                  src="./img/social/Twitter-color.svg" alt="twitter"></a></li>
+
+          </ul>
+          <div class="form__switch-login"> Already have an account?
+            <a href="" data-bs-target="#loginModal" data-bs-toggle="modal">Login here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal__login" id="resetPasswordModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center px-5 pb-5">
+          <h1>Login</h1>
+          <p class="text-danger mb-5">This feature is currently under development and will be available soon...</p>
+          <form class="modal__form d-flex flex-column gap-4 needs-validation">
+            <div class="input-group has-validation border rounded-1">
+              <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg></span>
+              <input type="email" class="form-control" id="email-reset-password" placeholder="Enter your email address"
+                required>
+              <div class="invalid-feedback">
+                Please choose a correct email.
+              </div>
+            </div>
+            <div class="input-group has-validation justify-content-around">
+              <button type="submit" class="btn btn-dark btn-text">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.7.0/build/js/intlTelInput.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

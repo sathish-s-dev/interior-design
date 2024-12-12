@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="return check_form();">
+      Username: <input type="text" id="name" /><br />
+      Password: <input type="password" id="pw" /><br />
+
+      SSC: <input type="checkbox" id="check1" /><br />
+      Degree: <input type="checkbox" id="check2" /><br />
+      PG: <input type="checkbox" id="check3" /><br />
+
+      <input type="submit" />
+    </form>
+
+    <script>
+      function check_form() {
+        var un = document.getElementById("name").value;
+        var pw = document.getElementById("pw").value;
+
+        var check1 = document.getElementById("check1").checked;
+        var check2 = document.getElementById("check2").checked;
+        var check3 = document.getElementById("check3").checked;
+        // alert(un + " " + pw + " " + check1 + " " + check2 + " " + check3);.
+
+        if (un === "" && pw === "") {
+          //alert("Please enter username and password");
+          //return false;
+        }
+
+        //  username and password are correct
+        if (un === "bb" && pw === "ss") {
+          alert("Submitted username and password");
+          return false;
+        } else if (check1 === true && check2 === true && check3 === true) {
+          alert("Thank you. Selected SSC, Degree and PG");
+          // return true;
+        } else {
+          alert("Please select at least one checkbox");
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>
